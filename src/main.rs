@@ -1,3 +1,4 @@
-fn main() {
-    println!("Hello, world!");
+use atr::Result;
+fn main() -> Result<()> {
+    atr::run()
 }
